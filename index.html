@@ -17,6 +17,8 @@
             height: 100%;
             list-style-type: none;
             padding-left: 40px;
+            bottom: 300px;
+            position: relative;
         }
         input{
             color: green;
@@ -30,17 +32,22 @@
             background-color: black;
             color:  green;
         }
+        div{
+            width: 300px;
+            height: 300px;
+            position: relative;
+            left: 471px;
+        }
     </style>
 </head>
 <body>
-    <input type="text" name="Имя" id="name-input">
-    <input type="text" name="Счёт" id="count-input">
-    <button>add</button>
-    <ul id="list">
-        <li><span>александер - 933788</span></li>
-        <li><span>александер - 933788</span></li>
-        <li><span>александер - 933788</span></li>
-        <li><span>александер - 933788</span></li>
-    </ul>
+    <span>
+        <input type="text" name="Имя" id="name-input">
+        <input type="text" name="Счёт" id="count-input">
+        <button id="add">add</button>
+    </span>
+    <div id="place of editing"></div>
+    <ul id="list"></ul>
+    
 </body>
 </html>
