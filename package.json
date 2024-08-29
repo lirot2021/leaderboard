@@ -1,0 +1,25 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lirot2021/leaderboard.git"
+  },
+  "author": "Lirot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lirot2021/leaderboard/issues"
+  },
+  "homepage": "https://github.com/lirot2021/leaderboard#readme",
+  "description": "",
+  "dependencies": {
+    "electron": "^32.0.1",
+    "electron-forge": "^5.2.4",
+    "electron-prebuilt-compile": "^8.2.0"
+  }
+}

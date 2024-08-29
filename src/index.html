@@ -1,16 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game points counter</title>
-    <link rel="shortcut icon" href="counter-icon.png" type="image/png">
     <script src="scripts.js" defer></script>
     <style>
         body{
             background-color:black;
             color: green;
             font-size: 40px;
+        }
+        body, html{
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Убирает полосы прокрутки */
+            height: 100%;
+            width: 100%;
         }
         #list{
             width: 400px;
